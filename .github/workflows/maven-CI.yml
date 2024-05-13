@@ -25,7 +25,7 @@ jobs:
         run: mvn -B package
 
       - name: Get Version from POM.xml
-        uses: entimaniac/read-pom-version-action@1.0.2
+        uses: entimaniac/read-pom-version-action@1.0.0
         id: getVersion
 
       - name: Copy generated .war to staging
